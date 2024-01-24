@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
     *{
       box-sizing: border-box;
@@ -23,15 +23,49 @@
       align-items: start;
       flex-direction: column;
       margin-top: 100px;
-      border: 2px;
-      border-style: solid;
+      border-radius: 20px;
+      /*border: 2 px;
+      border-style: solid;*/ /*just viusal boxes*/
       width: 500px;
+      padding: 3%;
     }
 
     .box{
       display: flex;
       justify-content: center; /* asse X */
       align-items: center; /* asse Y */
-      border: 2px;
-      border-style: solid;
+      /*border: 2px;
+      border-style: solid;*/ /*just visual boxes*/
+    }
+
+    .box img{
+      margin-right: 30px;
+    }
+
+    h1{
+      font-size: 50px;
+    }
+
+    .questions-box{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      
+    }
+
+    .questions{
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      
+    }
+
+    .answers{
+      color: gray;
+      
+    }
+
+    .plus-minus{
+      background-color: transparent;
+      border: none;
     }
