@@ -5,6 +5,6 @@ function Expand()
     if (document.getElementById("pulsante1").src=="assets/images/icon-minus.svg")
     document.setElementById("pulsante1").src="assets/images/icon-plus.svg";
     else 
-    document.getElementById("pulsante1").src="assets/images/icon-minus.svg";
+    document.setElementById("pulsante1").src="assets/images/icon-minus.svg";
         console.log(document.setElementById("pulsante1").src);
 }
