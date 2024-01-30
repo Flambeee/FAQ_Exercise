@@ -23,39 +23,53 @@
       </div>
       <br>
       <div class="questions-box">
-      <p class="questions">What is Frontend Mentor, and how will it help me? </p> 
-      <button class="plus-minus" onclick="Expand()"><img id="pulsante1" src="assets/images/icon-plus.svg"></button>
+
+        <p class="questions">What is Frontend Mentor, and how will it help me? </p> 
+        <button class="plus-minus" onclick="Expand(document.getElementById('pulsante1').id,document.getElementById('risposta1').id)"><img id="pulsante1" src="assets/images/icon-plus.svg" value="plus"></button>
       </div>
       <br>
 
-      <p id="risposta1"class="answers"></p>
+      <p id="risposta1" class="answers">Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
 
       <br>
       <hr class="solid" width="100%">  
       <br>
 
       <div class="questions-box">
-      <p class="questions">Frontend Mentor free? </p> 
-      <button class="plus-minus" onclick="Expand()"><img src="assets/images/icon-plus.svg"></button>
+        <p class="questions">Frontend Mentor free? </p> 
+        <button class="plus-minus" onclick="Expand(document.getElementById('pulsante2').id,document.getElementById('risposta2').id)"><img id="pulsante2" src="assets/images/icon-plus.svg" value="plus"></button>
       </div>
       <br>
 
-      <p class="answers">Frontend Mentor offers both free and premium coding challenges, with the free 
+      <p id="risposta2" class="answers">Frontend Mentor offers both free and premium coding challenges, with the free 
         option providing access to a range of projects suitable for all skill levels.</p>
 
       <br>
       <hr class="solid" width="100%">  
       <br> 
         
-      Can I use Frontend Mentor projects in my portfolio?
+      <div class="questions-box">
+        <p class="questions">Can I use Frontend Mentor projects in my portfolio?</p> 
+        <button class="plus-minus" onclick="Expand(document.getElementById('pulsante3').id,document.getElementById('risposta3').id)"><img id="pulsante3" src="assets/images/icon-plus.svg" value="plus"></button>
+      </div>
+      <br>
+      
 
-      Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
-        way to showcase your skills to potential employers!
+      <p id="risposta3" class="answers">Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+        way to showcase your skills to potential employers!</p>
 
-      How can I get help if I'm stuck on a Frontend Mentor challenge?
+      <br>
+      <hr class="solid" width="100%">  
+      <br>  
+
+      <div class="questions-box">
+        <p class="questions">How can I get help if I'm stuck on a Frontend Mentor challenge?</p> 
+        <button class="plus-minus" onclick="Expand(document.getElementById('pulsante4').id,document.getElementById('risposta4').id)"><img id="pulsante4" src="assets/images/icon-plus.svg" value="plus"></button>
+      </div>
+      <br>
         
-      The best place to get help is inside Frontend Mentor's Discord community. There's a help 
-        channel where you can ask questions and seek support from other community members.
+      <p id="risposta4" class="answers">The best place to get help is inside Frontend Mentor's Discord community. There's a help 
+      channel where you can ask questions and seek support from other community members.</p>
         
   </div>
 </body>

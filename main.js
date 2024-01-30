@@ -1,17 +1,27 @@
-var i=1;
 
-function Expand()
+
+function Expand(pul,ris)
 {
-    if (i % 2 == 0){
+    let p1 = document.getElementById(pul);
+    let r1 = document.getElementById(ris);
 
-        document.getElementById("pulsante1").src="assets/images/icon-plus.svg";
-        document.getElementById("risposta1").innerText= " ";
+    if (p1.value == "minus"){
+
+        
+        p1.src = "assets/images/icon-plus.svg";
+        p1.value = "plus";
+        //r1.style.display = 'none';
+        r1.classList.toggle('show');
     }
 
     else{
 
-        document.getElementById("pulsante1").src="assets/images/icon-minus.svg";
-        document.getElementById("risposta1").innerText="Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building.";
+        
+        p1.src = "assets/images/icon-minus.svg";
+        p1.value = "minus";
+        //r1.style.display = 'block';
+        r1.classList.toggle('show');
+
     }
-    i++;
+    
 }

@@ -61,6 +61,7 @@
     }
 
     .answers{
+      display: none;
       color: gray;
       
     }
@@ -68,4 +69,8 @@
     .plus-minus{
       background-color: transparent;
       border: none;
+    }
+
+    .show{
+      display: block;
     }
